@@ -1,0 +1,152 @@
+/* body{
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+  .container {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.input-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+#textField{
+  border-radius: 5px;
+  flex-grow: 2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+li{
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  height: 20px;
+  width: 315px;
+}
+ul{
+  padding: 0;
+  list-style: none;
+}
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover{
+  background-color: rgb(44, 103, 199);
+}
+.delbtn{
+  background-color: rgb(255, 24, 24);
+}
+.delbtn:hover{
+  background-color: rgb(209, 0, 0);
+} */
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#textField {
+  flex-grow: 2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  word-break: break-word; /* Use word-break instead of overflow-wrap */
+  max-width: 90%; /* Add this line to set a maximum width for li */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.delbtn {
+  background-color: #ff0000;
+  height: auto;
+  width: auto;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.delbtn:hover {
+  background-color: #d60000;
+}
+button.editbtn{
+  padding: 10px;
+  height: auto;
+  width: auto;
+  margin-left: auto;
+}
